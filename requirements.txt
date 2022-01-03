@@ -1,4 +1,9 @@
-google.cloud
-flask
-flask_restful
-werkzeug.utils
+Flask==2.0.2
+Flask-RESTful==0.3.9
+google-api-core==2.2.2
+google-auth==2.3.3
+google-cloud-core==2.2.1
+google-cloud-speech==2.11.1
+google-cloud-storage
+googleapis-common-protos==1.53.0
+Werkzeug==2.0.2

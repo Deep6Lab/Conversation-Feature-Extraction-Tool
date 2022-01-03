@@ -46,6 +46,7 @@ class ConvModAPI(Resource):
                 file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
                 data = diarization().callSpeechAPI(filename, form.to_dict(self))
                 print(data)
+                feature_exraction().extracting_speaker_diarization(data)
                 #return redirect(url_for('download_file', name=filename))
 
 
