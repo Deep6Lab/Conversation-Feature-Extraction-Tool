@@ -1,7 +1,7 @@
 
 Overview:
 
-To assess people with communication disorders clinicians need better insights into their daily life and it is a laborious and time-consuming task. We have created an API extract features from conversation such as average percentage spoke in conversation, taking turns in conversation, total pauses during a conversation, and many other speaker metrics. The goal of this API is to integrate into a user-friendly system so that users can easily analyze a conversation and have an intuition of individuals' involvement in communication and daily life.
+To assess people with communication disorders clinicians need better insights into their daily life and it is a laborious and time-consuming task. We have created an API that extract features from conversation such as average percentage spoke in conversation, taking turns in conversation, total pauses during a conversation, and many other speaker metrics. The goal of this API is to integrate into a user-friendly system so that users can easily analyze a conversation and have an intuition of individuals' involvement in communication and daily life.
 
 Tool installment:
 
