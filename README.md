@@ -20,6 +20,7 @@ pip install virtualenv
 virtualenv my_env
 
 Then install the requiremnents
+
 pip install -r requirements.txt
 
 Execution:
@@ -31,5 +32,7 @@ Output:
 
 •	Try hitting the local url in postman by importing the following collection - https://www.getpostman.com/collections/8246194f7189bdfc8072 
 •	Upload the file in the body of the postman as below -  
-•	We can observe a successful run of the API which returns a JSON with the detailed output.  
+![image](https://user-images.githubusercontent.com/43305644/151613634-7838e5b7-2ade-4103-a5d7-e345dc3bfae3.png)
+
+•	We can observe a successful run of the API which returns a JSON with the detailed output in the postman dashboard.  
 •	The required result will be shown in the terminal. 
