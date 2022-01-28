@@ -1,6 +1,7 @@
 Pre-requisites:
 
 •	Programming language : Python (3.8 or above) - https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe - windows , https://www.python.org/ftp/python/3.8.10/python-3.8.10-macosx10.9.pkg - MacOS.
+
 •	Packages : Pandas,numpy,nltk
 •	IDE : Any python supported IDE(we used PyCharm).
 •	API Testing Tools : Postman
@@ -8,10 +9,12 @@ Pre-requisites:
 Steps to do before executing the app:
 •	Update the file location of the input file with your local directory in app.py
 ![image](https://user-images.githubusercontent.com/43305644/151613082-eb35f75f-1889-4b01-b829-2767e7cd89de.png)
+
 •	Google Speech API:
 1.	Go to your google cloud console.
 2.	Enable google speech to text api.
 3.	Get the credential json file by creating the key in service accounts(IAM & ADMIN -> service accounts) and replace the code in client_secret.json (Conversation-Moderator-API->resources->client_secret.json).
+
 •	Create the virtual environment(if not created) for the application as below:
 pip install virtualenv
 virtualenv my_env
@@ -20,9 +23,12 @@ Then install the requiremnents
 pip install -r requirements.txt
 
 Execution:
+
 •	Execute the python application in the virtual environment that is created.
 •	The application will be running in the local host.  
+
 Output:
+
 •	Try hitting the local url in postman by importing the following collection - https://www.getpostman.com/collections/8246194f7189bdfc8072 
 •	Upload the file in the body of the postman as below -  
 •	We can observe a successful run of the API which returns a JSON with the detailed output.  
