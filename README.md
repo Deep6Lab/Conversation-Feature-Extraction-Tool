@@ -1,4 +1,5 @@
 Pre-requisites:
+
 •	Programming language : Python (3.8 or above) - https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe - windows , https://www.python.org/ftp/python/3.8.10/python-3.8.10-macosx10.9.pkg - MacOS.
 •	Packages : Pandas,numpy,nltk
 •	IDE : Any python supported IDE(we used PyCharm).
