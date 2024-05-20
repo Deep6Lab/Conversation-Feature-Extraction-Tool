@@ -29,7 +29,7 @@ To assess people with communication disorders clinicians need better insights in
   pip install virtualenv
   virtualenv my_env
 
--Then install the requiremnents
+-Then install the requiremnents:-
 
   pip install -r requirements.txt
 
