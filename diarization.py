@@ -7,7 +7,6 @@ from google.cloud import storage
 from google.cloud.speech_v1 import RecognizeResponse
 from google.protobuf.json_format import MessageToJson,MessageToDict
 
-
 class diarization():
 
 
